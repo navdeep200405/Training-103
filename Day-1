@@ -1,0 +1,58 @@
+TOPICS COVERED (INTRODUCTION TO ARTIFICIAL INTELLIGENCE & MACHINE LEARNING)
+Training Program Overview:
+
+Received an introduction to the 28-day Artificial Intelligence and Machine Learning training program. The trainer explained the course objectives, daily schedule, practical lab sessions, assignments, mini-projects, and the technologies that will be covered during the training. Discussed the importance of AI and ML in today's technology-driven world and the career opportunities available in this field.
+
+Introduction to Artificial Intelligence (AI):
+
+Learned the basic concept of Artificial Intelligence and understood that AI is the branch of computer science that enables machines to simulate human intelligence. Discussed how AI allows computers to perform tasks such as learning, reasoning, decision-making, problem-solving, and language understanding.
+
+Introduction to Machine Learning (ML):
+
+Studied the fundamentals of Machine Learning and learned that it is a subset of Artificial Intelligence where computers learn patterns from data and make predictions without being explicitly programmed. Understood how ML systems improve their performance with experience.
+
+Applications of AI & ML:
+
+Explored various real-world applications of AI and Machine Learning, including recommendation systems, virtual assistants, fraud detection, healthcare diagnosis, self-driving cars, image recognition, speech recognition, natural language processing, and predictive analytics.
+
+Types of Machine Learning:
+
+Received an overview of the three major types of Machine Learning:
+
+Supervised Learning: Learning from labeled data to make predictions.
+Unsupervised Learning: Discovering hidden patterns in unlabeled data.
+Reinforcement Learning: Learning through rewards and penalties by interacting with an environment.
+AI & ML Workflow:
+
+Learned the basic workflow followed in Machine Learning projects:
+
+Data Collection
+Data Cleaning
+Feature Engineering
+Model Training
+Model Evaluation
+Prediction and Deployment
+Introduction to Python for AI/ML:
+
+Discussed why Python is the most popular programming language for Artificial Intelligence and Machine Learning. Received an introduction to important libraries such as NumPy, Pandas, Matplotlib, and Scikit-learn.
+
+Hands-on Session:
+
+Installed and configured Python, Jupyter Notebook, and Visual Studio Code. Executed basic Python programs, created variables, performed arithmetic operations, and successfully ran the first Machine Learning environment setup.
+
+Key Learnings
+Understood the fundamentals of Artificial Intelligence and Machine Learning.
+Learned the relationship between AI, ML, and Data Science.
+Explored different types of Machine Learning.
+Understood the complete Machine Learning workflow.
+Learned the importance of Python in AI/ML development.
+Successfully configured the programming environment.
+TOOLS USED
+Python
+Jupyter Notebook
+Visual Studio Code (VS Code)
+NumPy
+Pandas
+TASK FOR TOMORROW
+
+Study Python basics including variables, data types, operators, conditional statements, loops, functions, and data structures. Practice writing simple Python programs and explore NumPy and Pandas for basic data manipulation.

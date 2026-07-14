@@ -1,0 +1,200 @@
+TOPICS COVERED (DATA PREPROCESSING & FEATURE ENGINEERING FOR MACHINE LEARNING)
+Introduction to Data Preprocessing
+
+The training session began with an introduction to Data Preprocessing, one of the most important phases in the Machine Learning lifecycle. Learned that real-world datasets are often incomplete, inconsistent, and noisy, making them unsuitable for directly training Machine Learning models. The trainer explained that preprocessing improves the quality of data, resulting in better model accuracy and performance.
+
+Discussed the complete data preprocessing pipeline, including data cleaning, handling missing values, removing duplicates, detecting outliers, encoding categorical variables, scaling numerical features, and feature engineering.
+
+Understanding Real-World Datasets
+
+Explored different real-world datasets containing missing values, duplicate records, inconsistent data types, and incorrect entries.
+
+Learned how poor-quality data can lead to:
+
+Low prediction accuracy
+Biased Machine Learning models
+Incorrect analysis
+Overfitting and underfitting problems
+
+Discussed the importance of validating data before starting model training.
+
+Handling Missing Values
+
+Studied different techniques for identifying and handling missing data using the Pandas library.
+
+Practiced:
+
+Detecting missing values using isnull()
+Counting missing values using sum()
+Displaying percentage of missing data
+Filling missing values using:
+Mean
+Median
+Mode
+Constant values
+Removing missing records using dropna()
+
+Compared different strategies and discussed when each method should be applied.
+
+Removing Duplicate Records
+
+Learned how duplicate records negatively affect Machine Learning models.
+
+Performed practical exercises on:
+
+Detecting duplicate rows
+Counting duplicate values
+Removing duplicates using drop_duplicates()
+Resetting DataFrame indexes after removing duplicates
+
+Understood the importance of maintaining unique and consistent datasets.
+
+Data Type Conversion
+
+Studied how incorrect data types create problems during data analysis and model training.
+
+Practiced converting:
+
+String to Integer
+String to Float
+Object to Datetime
+Integer to Float
+Category Data Type
+
+Learned the use of:
+
+astype()
+to_datetime()
+to_numeric()
+
+Successfully corrected invalid data types in sample datasets.
+
+Text Data Cleaning
+
+Performed preprocessing operations on text columns.
+
+Practiced:
+
+Removing extra spaces
+Converting text to lowercase and uppercase
+Replacing unwanted characters
+Renaming column names
+Correcting spelling inconsistencies
+Standardizing categorical values
+
+Learned how clean text data improves feature consistency.
+
+Detecting and Handling Outliers
+
+Received an introduction to Outliers and understood how extreme values influence Machine Learning models.
+
+Studied different methods for detecting outliers:
+
+Box Plot
+Interquartile Range (IQR)
+Z-Score Method
+
+Performed practical exercises to:
+
+Detect abnormal values
+Remove unnecessary outliers
+Replace extreme values where required
+
+Discussed situations where outliers should be retained instead of removed.
+
+Feature Scaling
+
+Learned why numerical features with different scales affect Machine Learning algorithms.
+
+Studied two important scaling techniques:
+
+Normalization (Min-Max Scaling)
+
+Converts values into the range of 0 to 1.
+
+Standardization (Z-Score Scaling)
+
+Converts values to have zero mean and unit variance.
+
+Discussed which Machine Learning algorithms require feature scaling and why it improves model performance.
+
+Encoding Categorical Variables
+
+Learned that Machine Learning algorithms cannot directly process text values.
+
+Studied different encoding techniques:
+
+Label Encoding
+One-Hot Encoding
+Ordinal Encoding
+
+Practiced converting categorical columns such as Gender, Department, and City into numerical values suitable for Machine Learning models.
+
+Feature Engineering
+
+Received an introduction to Feature Engineering, the process of creating new features from existing data to improve model performance.
+
+Created new features such as:
+
+Year from Date
+Month from Date
+Day of Week
+Profit Margin
+Total Revenue
+Age Groups
+
+Discussed how meaningful features help Machine Learning algorithms make better predictions.
+
+Data Splitting
+
+Learned the importance of separating data before model training.
+
+Studied:
+
+Training Dataset
+Testing Dataset
+
+Introduced the concept of the Train-Test Split and understood why unseen data is necessary to evaluate model performance fairly.
+
+Hands-on Practical Session
+
+Completed several preprocessing exercises using a real-world dataset.
+
+Performed:
+
+Importing CSV and Excel datasets.
+Exploring dataset information.
+Detecting missing values.
+Filling missing data using mean, median, and mode.
+Removing duplicate records.
+Cleaning text columns.
+Correcting data types.
+Detecting outliers using the IQR method.
+Encoding categorical variables.
+Scaling numerical features.
+Creating new features for analysis.
+Saving the cleaned dataset for Machine Learning.
+
+Successfully completed all preprocessing tasks using Jupyter Notebook and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the importance of data preprocessing in Machine Learning.
+Learned different techniques for handling missing values and duplicate records.
+Explored methods for cleaning and transforming raw datasets.
+Gained knowledge of detecting and handling outliers.
+Learned feature scaling techniques including normalization and standardization.
+Understood different categorical encoding methods.
+Created meaningful features using feature engineering techniques.
+Learned the importance of preparing clean and consistent datasets before training Machine Learning models.
+Improved practical skills through hands-on preprocessing exercises using real-world datasets.
+TOOLS USED
+Python 3.x
+Pandas
+NumPy
+Scikit-learn
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab
+TASK FOR TOMORROW
+
+Study Exploratory Data Analysis (EDA) in detail. Learn how to analyze datasets using summary statistics and visualizations, identify trends, distributions, correlations, and outliers, and draw meaningful insights from the data. Practice using Pandas, Matplotlib, and Seaborn to perform EDA on a real-world dataset before building Machine Learning models.

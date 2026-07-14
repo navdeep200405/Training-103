@@ -1,0 +1,187 @@
+TOPICS COVERED (DATA VISUALIZATION USING MATPLOTLIB & SEABORN)
+Introduction to Data Visualization
+
+The training session began with an introduction to Data Visualization, an essential step in Data Science and Machine Learning. Learned that data visualization is the graphical representation of data using charts, graphs, and plots, making it easier to understand patterns, trends, relationships, and outliers within datasets.
+
+The trainer explained that before building a Machine Learning model, data visualization helps in exploring the dataset, identifying errors, detecting missing values, and understanding the distribution of features.
+
+Introduction to Matplotlib
+
+Studied Matplotlib, one of the most widely used Python libraries for creating static, interactive, and animated visualizations.
+
+Learned how to import the library:
+
+import matplotlib.pyplot as plt
+
+Understood the basic structure of creating plots, including defining the figure, plotting data, adding titles, labels, legends, and displaying the graph using plt.show().
+
+Creating Line Charts
+
+Learned how to create Line Charts to visualize continuous data and observe trends over time.
+
+Practiced:
+
+Plotting single-line graphs
+Plotting multiple lines
+Changing line styles
+Adding markers
+Customizing line width
+Setting titles and axis labels
+Adding legends and gridlines
+
+Discussed real-world applications such as stock market trends, temperature analysis, and monthly sales reports.
+
+Creating Bar Charts
+
+Studied the use of Bar Charts for comparing values across different categories.
+
+Performed practical exercises on:
+
+Vertical bar charts
+Horizontal bar charts
+Grouped bar charts
+Customizing bar width and labels
+
+Used sample datasets to compare sales across different products and regions.
+
+Creating Pie Charts
+
+Learned how Pie Charts represent proportional data.
+
+Practiced:
+
+Displaying percentage values
+Exploding slices
+Changing colors
+Adding labels and titles
+
+Used examples such as market share analysis and student grade distribution.
+
+Creating Histograms
+
+Studied Histograms to understand the frequency distribution of numerical data.
+
+Learned how histograms help identify:
+
+Normal distribution
+Skewness
+Data spread
+Frequency of observations
+
+Created histograms for age, salary, and exam score datasets.
+
+Creating Scatter Plots
+
+Learned how Scatter Plots are used to analyze relationships between two numerical variables.
+
+Performed practical exercises to visualize:
+
+Height vs Weight
+Study Hours vs Marks
+Experience vs Salary
+
+Discussed how scatter plots help identify correlations before building Machine Learning models.
+
+Introduction to Seaborn
+
+Received an introduction to Seaborn, a Python visualization library built on top of Matplotlib.
+
+Learned that Seaborn provides more attractive and informative statistical graphics with minimal coding.
+
+Imported Seaborn using:
+
+import seaborn as sns
+
+Explored different built-in datasets available in Seaborn for practice.
+
+Creating Statistical Plots Using Seaborn
+
+Studied several visualization techniques using Seaborn.
+
+Practiced creating:
+
+Count Plot
+Box Plot
+Violin Plot
+Pair Plot
+Distribution Plot
+Heatmap
+
+Learned when each visualization should be used during Exploratory Data Analysis (EDA).
+
+Correlation Analysis Using Heatmaps
+
+Studied correlation matrices to understand relationships between numerical features.
+
+Created Heatmaps to visualize positive, negative, and weak correlations among variables.
+
+Learned how highly correlated features affect Machine Learning models and why feature selection is important.
+
+Customizing Graphs
+
+Learned various graph customization techniques including:
+
+Changing figure size
+Setting colors
+Adding titles
+Labeling axes
+Rotating labels
+Adding legends
+Displaying grids
+Saving figures as image files
+
+Understood how proper visualization improves data interpretation and presentation.
+
+Exploratory Data Analysis (EDA) Using Visualizations
+
+Performed basic Exploratory Data Analysis using visualization techniques.
+
+Analyzed datasets to:
+
+Detect missing values
+Identify outliers
+Observe feature distributions
+Compare different categories
+Analyze relationships between variables
+Draw meaningful conclusions from graphical representations
+
+Discussed the importance of visualization before feature engineering and model building.
+
+Hands-on Practical Session
+
+Completed practical exercises using Matplotlib and Seaborn, including:
+
+Creating line charts for monthly sales.
+Comparing product sales using bar charts.
+Visualizing market share through pie charts.
+Plotting score distributions using histograms.
+Creating scatter plots for feature comparison.
+Generating box plots to identify outliers.
+Drawing heatmaps to analyze feature correlations.
+Performing exploratory data analysis on a sample dataset.
+Customizing graphs with titles, labels, legends, and colors.
+Saving visualizations for reports and presentations.
+
+Successfully executed all visualization programs using Jupyter Notebook and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the importance of data visualization in Machine Learning.
+Learned to create different types of graphs using Matplotlib.
+Explored statistical visualizations using Seaborn.
+Understood how graphs help identify trends, distributions, relationships, and outliers.
+Learned to analyze feature correlations using heatmaps.
+Performed Exploratory Data Analysis (EDA) using graphical techniques.
+Improved skills in customizing and presenting professional-quality visualizations.
+Gained practical experience in interpreting datasets visually before model development.
+TOOLS USED
+Python 3.x
+Matplotlib
+Seaborn
+Pandas
+NumPy
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab
+TASK FOR TOMORROW
+
+Study Data Preprocessing and Data Cleaning using Pandas. Learn how to detect and handle missing values, remove duplicate records, identify and treat outliers, convert data types, encode categorical variables, perform feature scaling and normalization, and prepare datasets for Machine Learning models. Practice preprocessing a real-world dataset and understand why clean, high-quality data is essential for building accurate AI and ML models.

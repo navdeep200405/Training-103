@@ -1,0 +1,196 @@
+TOPICS COVERED (PYTHON FUNDAMENTALS FOR AI & MACHINE LEARNING)
+Introduction to Python Programming
+
+The training session began with an introduction to Python programming language and its importance in Artificial Intelligence, Machine Learning, Data Science, and Automation. Learned that Python is one of the most popular programming languages because of its simple syntax, readability, and extensive collection of libraries. The trainer explained why Python is widely used by AI engineers and data scientists for building intelligent systems and solving real-world problems.
+
+Python Installation and Development Environment
+
+Reviewed the installation of Python and verified the programming environment. Explored different tools used for Python programming such as Visual Studio Code (VS Code), Jupyter Notebook, and Google Colab. Understood the advantages of each platform and learned how to create, save, and execute Python files successfully.
+
+Variables and Data Types
+
+Studied how variables are used to store different types of information in Python. Learned the rules for naming variables and assigning values. Explored different built-in data types including:
+
+Integer (int)
+Float (float)
+String (str)
+Boolean (bool)
+Complex numbers (complex)
+
+Performed practical exercises by creating variables, displaying values using the print() function, and checking data types using the type() function.
+
+Input and Output Operations
+
+Learned how to interact with users through Python programs using the input() function. Understood how to accept different types of user input and convert them into integers or floating-point numbers using int() and float(). Practiced displaying formatted output using the print() function and f-strings.
+
+Examples practiced included:
+
+Accepting user name and displaying a welcome message.
+Taking two numbers as input and performing arithmetic operations.
+Calculating the area of a rectangle and circle.
+Creating simple calculator programs.
+Python Operators
+
+Studied various operators used in Python programming:
+
+Arithmetic Operators
+
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Floor Division (//)
+Modulus (%)
+Exponent (**)
+
+Comparison Operators
+
+Equal to (==)
+Not Equal (!=)
+Greater Than (>)
+Less Than (<)
+Greater Than or Equal To (>=)
+Less Than or Equal To (<=)
+
+Logical Operators
+
+AND
+OR
+NOT
+
+Assignment Operators
+
+=
++=
+-=
+*=
+/=
+
+Performed several practical examples to understand how operators are used in real-world programming problems.
+
+Conditional Statements
+
+Learned how decision-making is performed in Python using conditional statements.
+
+Studied:
+
+if statement
+if-else statement
+if-elif-else statement
+Nested if statements
+
+Solved different problems based on age verification, student grading system, voting eligibility, positive/negative number checking, and finding the largest among three numbers.
+
+Loops in Python
+
+Received an introduction to looping statements used to execute repetitive tasks.
+
+Studied:
+
+for loop
+while loop
+range() function
+break statement
+continue statement
+pass statement
+
+Implemented programs for:
+
+Printing numbers
+Multiplication tables
+Sum of first N numbers
+Factorial calculation
+Even and odd number identification
+Pattern printing
+Functions in Python
+
+Learned the importance of functions in reducing code repetition and improving program organization.
+
+Studied:
+
+Defining functions using def
+Function parameters
+Return values
+Calling functions
+Default arguments
+
+Created simple functions for:
+
+Addition of two numbers
+Finding maximum number
+Calculating area
+Greeting users
+Checking even and odd numbers
+Introduction to Python Data Structures
+
+Received a brief introduction to Python data structures used in Machine Learning.
+
+Studied:
+
+Lists
+Creating lists
+Indexing
+Slicing
+append()
+remove()
+sort()
+reverse()
+Tuples
+Creating tuples
+Tuple indexing
+Immutable nature of tuples
+Sets
+Creating sets
+Unique values
+add()
+remove()
+Union and intersection
+Dictionaries
+Key-value pairs
+Adding new elements
+Updating values
+Accessing dictionary items
+
+Performed practical exercises on each data structure using sample datasets.
+
+Basic Error Handling
+
+Learned about common programming errors and debugging techniques. Understood different types of errors including syntax errors, runtime errors, and logical errors. Practiced using try and except blocks to handle exceptions and prevent program crashes.
+
+Hands-on Practical Session
+
+Completed several Python practice programs including:
+
+Student Marks Calculator
+Temperature Converter
+Simple Calculator
+Number Guessing Program
+Prime Number Checker
+Factorial Program
+Fibonacci Series
+Multiplication Table Generator
+List Operations
+Dictionary Manipulation
+
+Successfully executed programs in both Jupyter Notebook and Visual Studio Code and corrected syntax errors with the guidance of the trainer.
+
+KEY LEARNINGS
+Understood the fundamentals of Python programming.
+Learned how to create and use variables and different data types.
+Performed arithmetic, logical, comparison, and assignment operations.
+Gained knowledge of decision-making using conditional statements.
+Learned to use loops for repetitive programming tasks.
+Understood how functions improve code reusability.
+Explored Python data structures including lists, tuples, sets, and dictionaries.
+Practiced writing beginner-level Python programs independently.
+Learned basic debugging and exception handling techniques.
+Strengthened problem-solving skills through hands-on programming exercises.
+TOOLS USED
+Python 3.x
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab
+Python IDLE
+TASK FOR TOMORROW
+
+Practice Python programming by solving more problems using loops, functions, and data structures. Begin learning NumPy for numerical computing, including array creation, indexing, slicing, mathematical operations, and its importance in Artificial Intelligence and Machine Learning. Also explore how NumPy improves the performance of data processing compared to standard Python lists.

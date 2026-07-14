@@ -1,0 +1,180 @@
+TOPICS COVERED (NUMPY FOR AI & MACHINE LEARNING)
+Introduction to NumPy
+
+The training session began with an introduction to NumPy (Numerical Python), one of the most important libraries used in Artificial Intelligence, Machine Learning, Data Science, and Scientific Computing. Learned that NumPy provides powerful tools for performing fast mathematical and numerical operations on large datasets. The trainer explained that almost every Machine Learning library, such as Scikit-learn, TensorFlow, and PyTorch, is built on top of NumPy.
+
+Discussed the advantages of NumPy over Python lists, including faster execution, lower memory consumption, efficient numerical computation, and support for multidimensional arrays.
+
+Installing and Importing NumPy
+
+Learned how to install the NumPy library using pip and how to import it into Python programs.
+
+Practiced importing the library using:
+
+import numpy as np
+
+Understood why the alias np is commonly used in AI and ML programming.
+
+Creating NumPy Arrays
+
+Studied different methods of creating NumPy arrays from Python lists and tuples.
+
+Practiced creating:
+
+One-dimensional (1D) arrays
+Two-dimensional (2D) arrays
+Three-dimensional (3D) arrays
+
+Also explored various built-in NumPy functions for creating arrays:
+
+array()
+zeros()
+ones()
+empty()
+arange()
+linspace()
+eye()
+identity()
+full()
+random.rand()
+random.randint()
+
+Performed practical exercises by creating arrays of different sizes and dimensions.
+
+Array Attributes
+
+Learned how to inspect the properties of NumPy arrays using built-in attributes.
+
+Studied:
+
+shape
+size
+ndim
+dtype
+itemsize
+
+Understood how these attributes help analyze datasets before applying Machine Learning algorithms.
+
+Array Indexing and Slicing
+
+Explored different techniques for accessing and modifying array elements.
+
+Practiced:
+
+Positive indexing
+Negative indexing
+Row and column selection
+Array slicing
+Multidimensional indexing
+
+Performed exercises to extract specific rows, columns, and subarrays from larger datasets.
+
+Mathematical Operations on Arrays
+
+Learned how NumPy performs mathematical operations efficiently without using loops.
+
+Practiced:
+
+Addition
+Subtraction
+Multiplication
+Division
+Modulus
+Exponentiation
+
+Also learned element-wise operations between two arrays and scalar operations.
+
+Compared the performance of NumPy arrays with traditional Python lists for numerical calculations.
+
+Statistical Functions
+
+Studied built-in statistical functions available in NumPy.
+
+Practiced using:
+
+sum()
+mean()
+median()
+min()
+max()
+std()
+var()
+argmax()
+argmin()
+
+Learned how these functions are useful in analyzing datasets before training Machine Learning models.
+
+Array Reshaping
+
+Received an introduction to reshaping arrays into different dimensions.
+
+Practiced:
+
+reshape()
+flatten()
+ravel()
+transpose()
+
+Learned how reshaping helps organize data in the format required by Machine Learning algorithms.
+
+Random Number Generation
+
+Explored NumPy's random module for generating random values.
+
+Practiced:
+
+Random integers
+Random floating-point numbers
+Random arrays
+Setting random seed for reproducibility
+
+Discussed the importance of random numbers in Machine Learning model training and testing.
+
+Basic Linear Algebra Operations
+
+Received a brief introduction to linear algebra concepts available in NumPy.
+
+Practiced:
+
+Matrix addition
+Matrix subtraction
+Matrix multiplication
+Dot product
+Matrix transpose
+
+Learned that linear algebra forms the mathematical foundation of Machine Learning and Deep Learning.
+
+Hands-on Practical Session
+
+Performed several practical exercises using NumPy, including:
+
+Creating arrays with different dimensions.
+Finding maximum and minimum values.
+Calculating average, sum, and standard deviation.
+Reshaping arrays into different sizes.
+Performing matrix multiplication.
+Generating random datasets.
+Extracting rows and columns using indexing and slicing.
+Comparing NumPy array operations with Python list operations.
+Solving small numerical problems related to AI and Machine Learning.
+
+Successfully executed all programs in Jupyter Notebook and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the importance of NumPy in Artificial Intelligence and Machine Learning.
+Learned how to create and manipulate one-dimensional, two-dimensional, and multidimensional arrays.
+Explored array indexing, slicing, and reshaping techniques.
+Performed mathematical and statistical operations using built-in NumPy functions.
+Gained basic knowledge of matrix operations and linear algebra.
+Learned how random number generation is used in Machine Learning.
+Improved practical programming skills through hands-on NumPy exercises.
+Understood why NumPy is faster and more efficient than Python lists for numerical computations.
+TOOLS USED
+Python 3.x
+NumPy Library
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab
+TASK FOR TOMORROW
+
+Study the Pandas library for data analysis and manipulation. Learn how to create Series and DataFrames, read data from CSV and Excel files, explore datasets, handle missing values, perform data filtering and sorting, and understand why Pandas is widely used in Data Science and Machine Learning. Practice loading a sample dataset and performing basic data analysis operations.

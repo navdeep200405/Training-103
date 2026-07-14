@@ -1,0 +1,217 @@
+TOPICS COVERED (SUPERVISED MACHINE LEARNING – INTRODUCTION & MODEL BUILDING)
+Introduction to Supervised Machine Learning
+
+The training session began with an introduction to Supervised Machine Learning, one of the most widely used categories of Machine Learning. Learned that supervised learning is a technique in which a model is trained using labeled data, where both the input features and the corresponding target outputs are already known. The trainer explained that the model learns the relationship between input variables and output labels, enabling it to make accurate predictions on unseen data.
+
+Discussed several real-world applications of supervised learning, including spam email detection, house price prediction, disease diagnosis, student performance prediction, loan approval systems, and fraud detection.
+
+Understanding Machine Learning Terminology
+
+Studied the basic terminology used in supervised learning.
+
+Learned the meaning of:
+
+Dataset
+Features (Independent Variables)
+Target Variable (Dependent Variable)
+Observation
+Label
+Training Dataset
+Testing Dataset
+Prediction
+Model
+Algorithm
+
+Understood how each component contributes to building an effective Machine Learning model.
+
+Classification vs Regression
+
+Received a detailed explanation of the two major types of supervised learning.
+
+Classification
+
+Learned that classification algorithms predict categorical outputs.
+
+Examples:
+
+Spam or Not Spam
+Pass or Fail
+Disease Present or Not Present
+Genuine or Fake Product
+Positive or Negative Sentiment
+
+Common classification algorithms discussed:
+
+Logistic Regression
+Decision Tree Classifier
+K-Nearest Neighbors (KNN)
+Support Vector Machine (SVM)
+Random Forest Classifier
+Regression
+
+Learned that regression algorithms predict continuous numerical values.
+
+Examples:
+
+House Price Prediction
+Salary Prediction
+Temperature Forecasting
+Sales Prediction
+Stock Price Estimation
+
+Common regression algorithms discussed:
+
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
+
+Compared regression and classification problems with practical examples to understand their differences.
+
+Machine Learning Workflow
+
+Studied the complete workflow of building a supervised Machine Learning model.
+
+The workflow included:
+
+Problem Definition
+Data Collection
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Feature Selection
+Data Splitting
+Model Selection
+Model Training
+Model Evaluation
+Prediction
+Model Deployment
+
+Understood that following a structured workflow improves model reliability and performance.
+
+Train-Test Split
+
+Learned why datasets are divided into training and testing subsets before model development.
+
+Studied:
+
+Training Data
+Testing Data
+Validation Concept
+Importance of evaluating models on unseen data
+
+Practiced splitting datasets using Scikit-learn's train_test_split() function.
+
+Discussed commonly used ratios such as:
+
+80% Training – 20% Testing
+70% Training – 30% Testing
+Introduction to Scikit-learn
+
+Received an introduction to Scikit-learn, one of the most popular Machine Learning libraries in Python.
+
+Learned how to:
+
+Import Scikit-learn modules
+Load datasets
+Train models
+Make predictions
+Evaluate model performance
+
+Explored several built-in datasets provided by Scikit-learn for practice purposes.
+
+Building the First Machine Learning Model
+
+Performed practical implementation of a simple Linear Regression model.
+
+Steps included:
+
+Loading the dataset
+Selecting features and target variable
+Splitting the dataset into training and testing sets
+Creating the Linear Regression model
+Training the model
+Making predictions
+Comparing predicted values with actual values
+
+Understood how Machine Learning models learn from training data and generate predictions.
+
+Model Evaluation
+
+Learned the importance of evaluating Machine Learning models after training.
+
+Studied evaluation metrics for regression models:
+
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+R² Score (Coefficient of Determination)
+
+Discussed how these metrics measure prediction accuracy and help compare different models.
+
+Making Predictions
+
+Practiced using trained Machine Learning models to predict values for new unseen data.
+
+Observed the difference between:
+
+Actual Output
+Predicted Output
+
+Learned how prediction accuracy depends on data quality and feature selection.
+
+Real-World Applications
+
+Discussed various applications of supervised learning across industries.
+
+Examples included:
+
+Medical diagnosis using patient records
+Loan approval prediction in banks
+Customer churn prediction
+Product recommendation systems
+Weather forecasting
+Student result prediction
+Car price prediction
+Sales forecasting
+
+The trainer emphasized how supervised learning powers many AI-driven applications used in daily life.
+
+Hands-on Practical Session
+
+Completed practical exercises using Python and Scikit-learn.
+
+Activities included:
+
+Loading a sample dataset.
+Exploring the dataset structure.
+Splitting data into training and testing sets.
+Building a Linear Regression model.
+Training the model using Scikit-learn.
+Predicting output values.
+Evaluating model performance using MAE, MSE, RMSE, and R² Score.
+Interpreting prediction results.
+Understanding the complete supervised learning workflow through implementation.
+
+Successfully executed all programs using Jupyter Notebook and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the concept and importance of Supervised Machine Learning.
+Learned the difference between classification and regression problems.
+Explored the complete Machine Learning workflow from data collection to prediction.
+Gained knowledge of training and testing datasets.
+Learned to use the Scikit-learn library for Machine Learning.
+Successfully built and trained a Linear Regression model.
+Evaluated model performance using standard regression metrics.
+Understood how Machine Learning models make predictions on unseen data.
+Strengthened practical programming skills through hands-on model implementation.
+TOOLS USED
+Python 3.x
+Scikit-learn (sklearn)
+Pandas
+NumPy
+Matplotlib
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab
+TASK FOR TOMORROW
+
+Study Linear Regression in detail. Learn the mathematical concept behind the algorithm, understand the relationship between independent and dependent variables, implement Simple and Multiple Linear Regression using Scikit-learn, visualize the regression line, interpret model coefficients, and evaluate the model using MAE, MSE, RMSE, and R² Score. Practice predicting values using a real-world dataset such as house prices, salary prediction, or student performance.

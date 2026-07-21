@@ -1,0 +1,169 @@
+TOPICS COVERED (MODEL SELECTION, HYPERPARAMETER TUNING & CROSS-VALIDATION)
+Introduction to Model Selection
+
+The training session began with an introduction to Model Selection, an essential process in Machine Learning used to identify the most suitable algorithm for a given dataset and problem. Learned that different Machine Learning algorithms perform differently depending on the nature of the data, and selecting the right model is important for achieving high prediction accuracy and better generalization.
+
+The trainer explained that model selection involves comparing multiple algorithms, evaluating their performance using different metrics, and choosing the one that provides the best balance between accuracy, complexity, and computational efficiency.
+
+Discussed examples of commonly compared models such as Logistic Regression, Decision Tree, Random Forest, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and Naïve Bayes.
+
+Training, Validation, and Testing Datasets
+
+Studied the importance of dividing a dataset into different subsets before model training.
+
+Learned about:
+
+Training Dataset: Used to train the Machine Learning model.
+Validation Dataset: Used for tuning model parameters and selecting the best model.
+Testing Dataset: Used to evaluate the final performance of the trained model on unseen data.
+
+The trainer explained that separating these datasets helps prevent overfitting and provides a fair estimate of model performance.
+
+Understanding Hyperparameters
+
+Received a detailed explanation of Hyperparameters, which are configuration settings defined before training a Machine Learning model.
+
+Examples studied included:
+
+Number of neighbors (K) in KNN.
+Maximum tree depth in Decision Trees.
+Number of estimators in Random Forest.
+Learning rate in Boosting algorithms.
+Regularization parameter (C) in SVM and Logistic Regression.
+
+Learned that selecting appropriate hyperparameter values significantly improves model performance.
+
+Hyperparameter Tuning
+
+Studied different techniques used to optimize Machine Learning models.
+
+Learned that hyperparameter tuning helps:
+
+Improve prediction accuracy.
+Reduce overfitting and underfitting.
+Optimize model performance.
+Enhance model generalization.
+
+Discussed the importance of systematically searching for the best parameter values.
+
+Grid Search
+
+Received an introduction to Grid Search, a popular hyperparameter optimization technique.
+
+Learned that Grid Search:
+
+Tests all possible combinations of specified hyperparameter values.
+Evaluates each combination using cross-validation.
+Selects the combination that produces the best performance.
+
+Implemented GridSearchCV using the Scikit-learn library and observed how it automatically identifies the optimal model parameters.
+
+Random Search
+
+Studied Random Search, another hyperparameter tuning technique.
+
+Learned that Random Search:
+
+Randomly selects combinations of hyperparameter values.
+Requires less computational time than Grid Search.
+Performs efficiently when the parameter search space is large.
+
+Compared Random Search with Grid Search and discussed situations where each method is preferred.
+
+Cross-Validation
+
+Received a detailed explanation of Cross-Validation, a technique used to evaluate Machine Learning models more reliably.
+
+Studied the concept of K-Fold Cross-Validation, where the dataset is divided into multiple equal-sized folds.
+
+Learned that:
+
+One fold is used for validation while the remaining folds are used for training.
+The process is repeated until every fold has been used as the validation set.
+The final model performance is calculated as the average of all validation scores.
+
+Discussed the advantages of cross-validation over a single train-test split.
+
+Model Evaluation
+
+Evaluated different Machine Learning models using standard performance metrics.
+
+Studied:
+
+Accuracy
+Precision
+Recall
+F1-Score
+ROC Curve
+ROC-AUC Score
+
+Compared the performance of multiple algorithms after hyperparameter tuning and selected the best-performing model.
+
+Avoiding Overfitting and Underfitting
+
+Learned how model complexity affects prediction performance.
+
+Discussed techniques to prevent overfitting:
+
+Cross-Validation
+Hyperparameter Tuning
+Regularization
+Pruning
+Increasing training data
+
+Also discussed how to address underfitting by selecting more suitable algorithms or adjusting model complexity.
+
+Model Comparison
+
+Performed a comparison of multiple supervised learning algorithms.
+
+Compared:
+
+Logistic Regression
+Decision Tree
+Random Forest
+Support Vector Machine (SVM)
+K-Nearest Neighbors (KNN)
+
+Evaluated each model using the same dataset and compared their performance based on evaluation metrics.
+
+Learned how model comparison supports selecting the most appropriate algorithm for a specific problem.
+
+Hands-on Practical Session
+
+Completed practical exercises using Python and Scikit-learn.
+
+Activities included:
+
+Loading a real-world dataset.
+Splitting data into training and testing sets.
+Training multiple Machine Learning models.
+Performing Grid Search using GridSearchCV.
+Applying Random Search for parameter optimization.
+Implementing K-Fold Cross-Validation.
+Comparing cross-validation scores.
+Evaluating models using Accuracy, Precision, Recall, F1-Score, and ROC-AUC.
+Selecting the best-performing model based on optimized parameters.
+Interpreting model evaluation results and discussing improvements.
+
+Successfully completed all practical exercises using Jupyter Notebook and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the importance of model selection in Machine Learning.
+Learned the difference between training, validation, and testing datasets.
+Explored the concept of hyperparameters and their impact on model performance.
+Successfully applied Grid Search and Random Search for hyperparameter tuning.
+Learned the working principle of K-Fold Cross-Validation.
+Compared multiple Machine Learning models using different evaluation metrics.
+Understood techniques to reduce overfitting and underfitting.
+Gained practical experience in selecting and optimizing Machine Learning models for better predictive performance.
+TOOLS USED
+Python 3.x
+Scikit-learn (sklearn)
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab

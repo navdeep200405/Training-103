@@ -1,0 +1,183 @@
+TOPICS COVERED (UNSUPERVISED MACHINE LEARNING & K-MEANS CLUSTERING)
+Introduction to Unsupervised Machine Learning
+
+The training session began with an introduction to Unsupervised Machine Learning, a branch of Machine Learning in which algorithms learn patterns from unlabeled data. Learned that unlike supervised learning, unsupervised learning does not use predefined target labels. Instead, the algorithm identifies hidden structures, similarities, and relationships within the data automatically.
+
+The trainer explained that unsupervised learning is widely used for customer segmentation, recommendation systems, anomaly detection, market basket analysis, and pattern recognition.
+
+Difference Between Supervised and Unsupervised Learning
+
+Studied the key differences between supervised and unsupervised learning.
+
+Learned that:
+
+Supervised Learning uses labeled data with known target values.
+Unsupervised Learning works with unlabeled data and discovers hidden patterns.
+Supervised learning is mainly used for prediction, whereas unsupervised learning focuses on grouping and pattern discovery.
+
+Compared real-world examples of both approaches to understand their applications.
+
+Introduction to Clustering
+
+Received an introduction to Clustering, one of the most important unsupervised learning techniques.
+
+Learned that clustering groups similar data points together while separating dissimilar ones into different groups called clusters.
+
+Discussed practical applications of clustering such as:
+
+Customer Segmentation
+Product Recommendation
+Image Segmentation
+Social Network Analysis
+Document Classification
+Market Research
+Healthcare Data Analysis
+
+The trainer emphasized the importance of clustering in discovering hidden patterns without prior knowledge of class labels.
+
+Understanding K-Means Clustering
+
+Studied K-Means Clustering, one of the most popular clustering algorithms.
+
+Learned the working process of K-Means:
+
+Select the number of clusters (K).
+Initialize random centroids.
+Assign each data point to the nearest centroid.
+Update centroid positions.
+Repeat the process until centroids no longer change significantly.
+
+Understood that K-Means aims to minimize the distance between data points and their assigned cluster centroids.
+
+Choosing the Optimal Number of Clusters
+
+Received a detailed explanation of selecting the appropriate value of K.
+
+Studied the Elbow Method, where different values of K are tested and the optimal cluster number is selected by observing the point where the rate of decrease in error begins to slow down.
+
+Discussed why selecting an appropriate number of clusters improves clustering quality.
+
+Distance Measures
+
+Learned how K-Means measures similarity between data points.
+
+Studied common distance metrics including:
+
+Euclidean Distance
+Manhattan Distance
+
+Discussed why Euclidean Distance is the default metric used in the K-Means algorithm.
+
+Building a K-Means Clustering Model
+
+Implemented a K-Means Clustering model using the Scikit-learn library.
+
+Performed the following steps:
+
+Loading the dataset.
+Selecting numerical features.
+Scaling data when required.
+Importing KMeans.
+Specifying the number of clusters.
+Training the clustering model.
+Assigning cluster labels.
+Displaying cluster centroids.
+
+Observed how data points were grouped into meaningful clusters based on similarity.
+
+Visualizing Clusters
+
+Learned how to visualize clustering results using Matplotlib.
+
+Created:
+
+Scatter plots of clustered data.
+Cluster centroids represented with different markers.
+Color-coded clusters for better interpretation.
+
+Discussed how visualization helps evaluate clustering performance.
+
+Hierarchical Clustering
+
+Received an introduction to Hierarchical Clustering, another important clustering technique.
+
+Studied:
+
+Agglomerative Clustering (Bottom-Up Approach)
+Divisive Clustering (Top-Down Approach)
+
+Learned how hierarchical clustering builds a tree-like structure called a Dendrogram, which helps determine relationships among data points.
+
+Compared Hierarchical Clustering with K-Means and discussed the advantages of each method.
+
+Cluster Evaluation
+
+Studied methods used to evaluate clustering quality.
+
+Learned about:
+
+Within-Cluster Sum of Squares (WCSS)
+Elbow Method
+Silhouette Score (Introduction)
+
+Discussed how these techniques help determine the effectiveness of clustering models.
+
+Applications of Clustering
+
+Explored real-world applications of clustering.
+
+Examples included:
+
+Customer Segmentation
+Fraud Detection
+Image Compression
+Social Media Analysis
+Market Basket Analysis
+Recommendation Systems
+Medical Research
+Gene Expression Analysis
+Document Grouping
+
+The trainer explained how clustering enables organizations to make data-driven decisions by discovering meaningful patterns in large datasets.
+
+Hands-on Practical Session
+
+Completed practical exercises using Python and Scikit-learn.
+
+Activities included:
+
+Loading a real-world dataset.
+Exploring numerical features.
+Performing feature scaling.
+Implementing K-Means Clustering.
+Selecting the optimal value of K using the Elbow Method.
+Visualizing clusters using scatter plots.
+Displaying cluster centroids.
+Performing Hierarchical Clustering.
+Plotting a Dendrogram.
+Comparing K-Means and Hierarchical Clustering results.
+Interpreting clustering patterns and business insights.
+
+Successfully completed all practical exercises using Jupyter Notebook and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the concept and importance of Unsupervised Machine Learning.
+Learned the difference between supervised and unsupervised learning.
+Explored the working principle of K-Means Clustering.
+Learned how to select the optimal number of clusters using the Elbow Method.
+Studied Hierarchical Clustering and Dendrograms.
+Built and visualized clustering models using Scikit-learn.
+Evaluated clustering quality using WCSS and Silhouette Score.
+Gained practical experience in identifying hidden patterns and grouping similar data points.
+Understood real-world applications of clustering in business and research.
+TOOLS USED
+Python 3.x
+Scikit-learn (sklearn)
+Pandas
+NumPy
+Matplotlib
+Seaborn
+SciPy
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab

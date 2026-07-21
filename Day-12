@@ -1,0 +1,191 @@
+TOPICS COVERED (K-NEAREST NEIGHBORS (KNN) ALGORITHM)
+Introduction to K-Nearest Neighbors (KNN)
+
+The training session began with an introduction to K-Nearest Neighbors (KNN), a simple yet powerful supervised Machine Learning algorithm used for both classification and regression problems. Learned that KNN is a lazy learning algorithm, meaning it does not build a model during training but instead stores the training data and makes predictions when new data is provided.
+
+The trainer explained that KNN predicts the class of a new data point by finding the K nearest neighbors based on distance and assigning the majority class among those neighbors.
+
+Discussed several real-world applications of KNN, including recommendation systems, medical diagnosis, handwriting recognition, image classification, and customer segmentation.
+
+Working Principle of KNN
+
+Studied the step-by-step working process of the KNN algorithm.
+
+Learned that the algorithm follows these steps:
+
+Store the training dataset.
+Select the value of K (number of nearest neighbors).
+Calculate the distance between the new data point and all training samples.
+Identify the K closest neighbors.
+Perform majority voting for classification or calculate the average for regression.
+Predict the final output.
+
+Understood that KNN makes predictions based on similarity between data points.
+
+Choosing the Value of K
+
+Received a detailed explanation of the importance of selecting the appropriate K value.
+
+Learned that:
+
+A small K value may lead to overfitting and sensitivity to noise.
+A large K value may lead to underfitting and reduced accuracy.
+
+Discussed methods for selecting the optimal K value through experimentation and model evaluation.
+
+Practiced comparing model performance using different values such as K = 3, 5, 7, and 9.
+
+Distance Metrics
+
+Studied different methods used to calculate the distance between data points.
+
+Learned about:
+
+Euclidean Distance
+Measures the straight-line distance between two points.
+Most commonly used in KNN classification.
+Manhattan Distance
+Measures the distance by moving along horizontal and vertical paths.
+Useful for grid-based datasets.
+Minkowski Distance
+A generalized distance metric that includes Euclidean and Manhattan distances as special cases.
+
+Discussed how the choice of distance metric influences model performance.
+
+Feature Scaling
+
+Learned why feature scaling is essential before applying the KNN algorithm.
+
+Studied techniques such as:
+
+Standardization
+Normalization
+
+Understood that features with larger numerical values can dominate distance calculations if scaling is not performed.
+
+Performed feature scaling using StandardScaler from Scikit-learn.
+
+Building a KNN Classifier
+
+Implemented a K-Nearest Neighbors Classifier using the Scikit-learn library.
+
+Performed the following steps:
+
+Importing the dataset
+Selecting features and target variable
+Splitting the dataset into training and testing sets
+Scaling numerical features
+Importing KNeighborsClassifier
+Creating the KNN model
+Training the classifier
+Predicting class labels for testing data
+
+Successfully built the classification model and observed prediction results.
+
+Model Evaluation
+
+Studied different evaluation metrics used for KNN classification.
+
+Calculated:
+
+Accuracy Score
+Precision
+Recall
+F1-Score
+
+Compared predicted labels with actual labels and interpreted the model's performance.
+
+Confusion Matrix
+
+Learned how to evaluate classification performance using a Confusion Matrix.
+
+Studied:
+
+True Positive (TP)
+True Negative (TN)
+False Positive (FP)
+False Negative (FN)
+
+Interpreted the confusion matrix to understand correct and incorrect classifications.
+
+Effect of Different K Values
+
+Performed experiments using multiple values of K.
+
+Compared prediction accuracy for different neighbor values and observed how the model's performance changed.
+
+Learned that selecting an appropriate K value is important for achieving better classification accuracy.
+
+Advantages and Limitations of KNN
+
+Discussed the strengths and limitations of the algorithm.
+
+Advantages:
+
+Simple and easy to understand.
+No training phase required.
+Effective for small datasets.
+Can solve both classification and regression problems.
+
+Limitations:
+
+Computationally expensive for large datasets.
+Sensitive to irrelevant features.
+Requires feature scaling.
+Performance decreases with high-dimensional data.
+Applications of KNN
+
+Explored practical applications of the KNN algorithm.
+
+Examples included:
+
+Handwritten Digit Recognition
+Face Recognition
+Recommendation Systems
+Medical Diagnosis
+Customer Classification
+Credit Risk Analysis
+Image Classification
+Pattern Recognition
+
+The trainer explained how KNN is widely used for similarity-based prediction problems.
+
+Hands-on Practical Session
+
+Completed practical exercises using Python and Scikit-learn.
+
+Activities included:
+
+Loading a real-world classification dataset.
+Exploring dataset features.
+Performing train-test split.
+Scaling numerical features using StandardScaler.
+Building a KNN Classifier.
+Training the model using different K values.
+Predicting class labels for testing data.
+Creating a Confusion Matrix.
+Calculating Accuracy, Precision, Recall, and F1-Score.
+Comparing model performance for different K values.
+Selecting the optimal K value based on evaluation results.
+
+Successfully executed all programs using Jupyter Notebook and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the concept and working principle of the K-Nearest Neighbors algorithm.
+Learned the importance of selecting the optimal value of K.
+Explored different distance metrics including Euclidean, Manhattan, and Minkowski distances.
+Understood the importance of feature scaling before applying KNN.
+Successfully implemented a KNN Classifier using Scikit-learn.
+Evaluated model performance using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.
+Compared different K values to improve prediction accuracy.
+Gained practical experience in solving classification problems using KNN.
+TOOLS USED
+Python 3.x
+Scikit-learn (sklearn)
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab

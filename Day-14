@@ -1,0 +1,209 @@
+TOPICS COVERED (NAÏVE BAYES CLASSIFICATION)
+Introduction to Naïve Bayes
+
+The training session began with an introduction to Naïve Bayes, a probabilistic supervised Machine Learning algorithm used primarily for classification tasks. Learned that Naïve Bayes is based on Bayes' Theorem and assumes that all input features are independent of each other. Although this assumption is rarely true in real-world datasets, the algorithm performs remarkably well for many classification problems.
+
+The trainer explained that Naïve Bayes is widely used because it is simple, computationally efficient, and capable of handling large datasets with high-dimensional features.
+
+Discussed real-world applications such as email spam filtering, document classification, sentiment analysis, recommendation systems, and medical diagnosis.
+
+Understanding Bayes' Theorem
+
+Studied the mathematical foundation of the Naïve Bayes algorithm.
+
+Learned the formula of Bayes' Theorem:
+
+P(A|B) = (P(B|A) × P(A)) / P(B)
+
+Where:
+
+P(A|B) = Posterior Probability
+P(B|A) = Likelihood
+P(A) = Prior Probability
+P(B) = Evidence
+
+The trainer explained how Bayes' Theorem updates the probability of an event when new evidence becomes available.
+
+Probability Concepts
+
+Received a detailed explanation of important probability terms used in Naïve Bayes.
+
+Studied:
+
+Prior Probability
+Posterior Probability
+Conditional Probability
+Likelihood
+Evidence
+
+Understood how these probabilities work together to predict the most likely class for a given input.
+
+Independence Assumption
+
+Learned the meaning of the Naïve Assumption, which states that all features are independent of one another.
+
+Discussed why:
+
+The assumption simplifies probability calculations.
+The algorithm remains efficient even for large datasets.
+Despite the assumption, Naïve Bayes often produces highly accurate results.
+
+Compared independent and dependent features using practical examples.
+
+Types of Naïve Bayes Algorithms
+
+Studied different variants of the Naïve Bayes algorithm.
+
+Gaussian Naïve Bayes
+Used for continuous numerical data.
+Assumes data follows a normal (Gaussian) distribution.
+
+Applications:
+
+Medical diagnosis
+Student performance prediction
+Multinomial Naïve Bayes
+Used for discrete count data.
+Commonly applied in text classification.
+
+Applications:
+
+Spam detection
+News categorization
+Document classification
+Bernoulli Naïve Bayes
+Used for binary features.
+Works with data containing only 0 and 1 values.
+
+Applications:
+
+Email filtering
+Binary text classification
+
+Compared all three algorithms and discussed their suitable use cases.
+
+Building a Naïve Bayes Classifier
+
+Implemented a Naïve Bayes Classifier using the Scikit-learn library.
+
+Performed the following steps:
+
+Loading the dataset.
+Selecting features and target variable.
+Splitting the dataset into training and testing sets.
+Importing the appropriate Naïve Bayes classifier.
+Training the model.
+Making predictions on testing data.
+
+Observed how the model classified new observations based on probability calculations.
+
+Model Evaluation
+
+Evaluated the Naïve Bayes model using different classification metrics.
+
+Studied:
+
+Accuracy Score
+Precision
+Recall
+F1-Score
+
+Compared predicted values with actual labels to determine the effectiveness of the model.
+
+Confusion Matrix
+
+Learned how to interpret the Confusion Matrix.
+
+Studied:
+
+True Positive (TP)
+True Negative (TN)
+False Positive (FP)
+False Negative (FN)
+
+Analyzed correct and incorrect predictions to better understand model performance.
+
+ROC Curve and AUC Score
+
+Received an introduction to advanced evaluation techniques.
+
+Learned how to generate:
+
+ROC Curve
+AUC Score
+
+Discussed how these metrics help evaluate the classifier's ability to distinguish between different classes.
+
+Advantages and Limitations of Naïve Bayes
+
+Discussed the strengths and weaknesses of the algorithm.
+
+Advantages:
+
+Simple and easy to implement.
+Fast training and prediction.
+Performs well with large datasets.
+Handles high-dimensional data efficiently.
+Requires less training data.
+
+Limitations:
+
+Assumes feature independence.
+Performance decreases when features are highly correlated.
+May not perform well on complex datasets with dependent variables.
+Applications of Naïve Bayes
+
+Explored practical applications in different industries.
+
+Examples included:
+
+Email Spam Detection
+Sentiment Analysis
+Document Classification
+News Categorization
+Language Detection
+Medical Diagnosis
+Customer Feedback Analysis
+Product Recommendation Systems
+
+The trainer explained why Naïve Bayes remains one of the most widely used algorithms in Natural Language Processing (NLP).
+
+Hands-on Practical Session
+
+Completed practical exercises using Python and Scikit-learn.
+
+Activities included:
+
+Loading a real-world classification dataset.
+Performing data preprocessing.
+Splitting data into training and testing sets.
+Building a Gaussian Naïve Bayes model.
+Training the classifier.
+Making predictions on unseen data.
+Evaluating model performance using Accuracy, Precision, Recall, and F1-Score.
+Creating a Confusion Matrix.
+Plotting the ROC Curve.
+Comparing Naïve Bayes performance with Logistic Regression and Decision Tree classifiers.
+Interpreting the classification results and probability outputs.
+
+Successfully completed all practical exercises using Jupyter Notebook and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the concept and working principle of the Naïve Bayes algorithm.
+Learned Bayes' Theorem and its application in Machine Learning.
+Explored prior probability, posterior probability, conditional probability, and likelihood.
+Studied the independence assumption and its impact on model performance.
+Learned the differences between Gaussian, Multinomial, and Bernoulli Naïve Bayes.
+Successfully implemented a Naïve Bayes classifier using Scikit-learn.
+Evaluated model performance using Accuracy, Precision, Recall, F1-Score, ROC Curve, AUC Score, and Confusion Matrix.
+Gained practical experience in solving real-world classification problems using Naïve Bayes.
+TOOLS USED
+Python 3.x
+Scikit-learn (sklearn)
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
+Visual Studio Code (VS Code)
+Google Colab

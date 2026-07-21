@@ -1,0 +1,218 @@
+TOPICS COVERED (DEEP LEARNING FUNDAMENTALS & ARTIFICIAL NEURAL NETWORKS (ANN))
+Introduction to Deep Learning
+
+The training session began with an introduction to Deep Learning, a specialized branch of Artificial Intelligence (AI) and Machine Learning (ML) that uses Artificial Neural Networks (ANNs) with multiple hidden layers to learn complex patterns from large datasets. Learned that Deep Learning enables computers to automatically extract meaningful features from raw data without requiring extensive manual feature engineering.
+
+The trainer explained that Deep Learning has revolutionized various fields such as computer vision, natural language processing (NLP), speech recognition, robotics, autonomous vehicles, healthcare, and recommendation systems.
+
+Relationship Between AI, Machine Learning, and Deep Learning
+
+Studied the hierarchy of Artificial Intelligence technologies.
+
+Learned that:
+
+Artificial Intelligence (AI) is the broad field of creating intelligent systems.
+Machine Learning (ML) is a subset of AI where systems learn from data.
+Deep Learning (DL) is a subset of ML that uses deep neural networks for solving complex problems.
+
+Compared traditional Machine Learning algorithms with Deep Learning models and discussed their advantages and limitations.
+
+Introduction to Artificial Neural Networks (ANN)
+
+Received a detailed introduction to Artificial Neural Networks (ANNs).
+
+Learned that ANNs are inspired by the structure and functioning of the human brain.
+
+Studied the basic components of an ANN:
+
+Artificial Neurons
+Input Layer
+Hidden Layer(s)
+Output Layer
+Weights
+Bias
+Activation Functions
+
+The trainer explained how neurons process information and pass it through multiple layers to generate predictions.
+
+Structure of a Neural Network
+
+Studied the architecture of an Artificial Neural Network.
+
+Learned about:
+
+Input Layer
+Receives input features from the dataset.
+Passes the information to hidden layers.
+Hidden Layers
+Perform mathematical computations.
+Learn complex relationships among features.
+Multiple hidden layers form a Deep Neural Network.
+Output Layer
+Produces the final prediction or classification result.
+Number of output neurons depends on the problem type.
+
+Discussed how increasing hidden layers allows neural networks to solve more complex problems.
+
+Activation Functions
+
+Received a detailed explanation of activation functions used in Deep Learning.
+
+Studied:
+
+Sigmoid Function
+Produces outputs between 0 and 1.
+Commonly used for binary classification.
+ReLU (Rectified Linear Unit)
+Returns the input if positive, otherwise returns zero.
+Most widely used activation function in hidden layers.
+Softmax Function
+Converts outputs into probability values.
+Used for multiclass classification.
+
+Compared the advantages and applications of each activation function.
+
+Forward Propagation
+
+Learned how information moves through a neural network.
+
+Studied the process:
+
+Input features enter the network.
+Weighted sums are calculated.
+Activation functions generate outputs.
+Predictions are produced at the output layer.
+
+Understood how forward propagation enables the model to make predictions.
+
+Loss Functions
+
+Received an introduction to Loss Functions, which measure prediction errors.
+
+Studied commonly used loss functions:
+
+Mean Squared Error (MSE)
+Binary Cross-Entropy
+Categorical Cross-Entropy
+
+Learned that the objective of training is to minimize the loss function.
+
+Backpropagation
+
+Studied the concept of Backpropagation, one of the most important learning algorithms in Deep Learning.
+
+Learned that backpropagation:
+
+Calculates prediction errors.
+Propagates errors backward through the network.
+Updates weights and biases.
+Improves model accuracy after every training iteration.
+
+The trainer explained how repeated training helps the network learn complex patterns from data.
+
+Optimization Algorithms
+
+Received an introduction to optimization techniques used during neural network training.
+
+Studied:
+
+Gradient Descent
+Stochastic Gradient Descent (SGD)
+Adam Optimizer
+
+Compared different optimization algorithms and discussed why Adam is widely used because of its faster convergence and improved performance.
+
+Building an ANN Using TensorFlow and Keras
+
+Implemented a simple Artificial Neural Network using TensorFlow and Keras.
+
+Performed the following steps:
+
+Importing TensorFlow and Keras libraries.
+Loading a sample dataset.
+Splitting data into training and testing sets.
+Creating a Sequential ANN model.
+Adding input, hidden, and output layers.
+Selecting activation functions.
+Compiling the model using an optimizer and loss function.
+Training the neural network.
+Making predictions on test data.
+
+Observed how the model learned patterns through multiple training epochs.
+
+Model Evaluation
+
+Evaluated the trained ANN using different performance metrics.
+
+Studied:
+
+Accuracy
+Loss
+Training Accuracy
+Validation Accuracy
+Training Loss
+Validation Loss
+
+Visualized training progress using accuracy and loss graphs.
+
+Discussed how monitoring these metrics helps identify overfitting and underfitting.
+
+Applications of Artificial Neural Networks
+
+Explored practical applications of Artificial Neural Networks.
+
+Examples included:
+
+Image Recognition
+Face Detection
+Speech Recognition
+Medical Diagnosis
+Fraud Detection
+Stock Market Prediction
+Recommendation Systems
+Natural Language Processing (NLP)
+Autonomous Vehicles
+Handwriting Recognition
+
+The trainer explained how ANNs form the foundation of modern Deep Learning applications.
+
+Hands-on Practical Session
+
+Completed practical exercises using Python, TensorFlow, and Keras.
+
+Activities included:
+
+Loading a real-world dataset.
+Preprocessing the data.
+Building a Sequential Artificial Neural Network.
+Adding multiple hidden layers.
+Selecting ReLU and Softmax activation functions.
+Compiling the model using the Adam optimizer.
+Training the ANN for multiple epochs.
+Evaluating model accuracy and loss.
+Visualizing training and validation curves.
+Making predictions using the trained neural network.
+Comparing ANN performance with traditional Machine Learning algorithms.
+
+Successfully completed all practical exercises using Jupyter Notebook, Google Colab, and Visual Studio Code.
+
+KEY LEARNINGS
+Understood the fundamentals of Deep Learning and Artificial Neural Networks.
+Learned the architecture of neural networks, including input, hidden, and output layers.
+Explored activation functions such as ReLU, Sigmoid, and Softmax.
+Understood the concepts of forward propagation and backpropagation.
+Learned about loss functions and optimization algorithms.
+Successfully built and trained an Artificial Neural Network using TensorFlow and Keras.
+Evaluated neural network performance using accuracy and loss metrics.
+Gained practical experience in implementing Deep Learning models for real-world applications.
+TOOLS USED
+Python 3.x
+TensorFlow
+Keras
+Scikit-learn (sklearn)
+Pandas
+NumPy
+Matplotlib
+Jupyter Notebook
+Google Colab
+Visual Studio Code (VS Code)
